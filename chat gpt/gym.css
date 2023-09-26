@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+    margin-top: 20PX;
+    margin-left: 30px;
+}
+h1 span{
+    color: rgb(128, 5, 5);
+}
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+   list-style: none;
+   margin-top: -40px;
+   margin-right: -200px;
+ 
+}
+ul li a{
+    font-size: 30px;
+    color: #fff;
+    margin-inline: 30px;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: rgb(194, 194, 13);
+}
+ul button{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 0);
+    margin-left: 50px;
+}
+ul button:hover{
+    background-color: rgb(187, 187, 4);
+}
+.text h1{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.text h1 span{
+    color: rgb(88, 164, 194);
+}
+.text p{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 22px;
+}
+.text button{
+    width: 150px;
+    height: 50px;
+    margin-left: 5.5%;
+    margin-top: 40px;
+    font-size: 19px;
+   background-color: yellow;
+   border-radius: 7px;
+   cursor: pointer;
+    
+}
+.icon{
+    margin-left: 110px;
+    font-size: 30px;
+  
+}
+.icon a{
+    color: #fff;
+}
